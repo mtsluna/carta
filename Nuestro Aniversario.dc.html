@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Valen y Mati · 1 año y 3 meses</title>
+<link rel="stylesheet" href="_ds/organic-e8559643-b2a1-4424-bbda-0ac50f0410da/styles.css">
+<script src="_ds/organic-e8559643-b2a1-4424-bbda-0ac50f0410da/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+:root{--color-bg:#fbeaee;--color-surface:#f5d9e0;--color-text:#2a1d21;--color-accent:#d4567f;--color-accent-2:#c27880;--color-divider:color-mix(in srgb,#2a1d21 16%,transparent);
+--color-neutral-100:#fcf3f5;--color-neutral-200:#f2e5e9;--color-neutral-300:#e1d1d6;--color-neutral-400:#c6b3b9;--color-neutral-500:#a8949a;--color-neutral-600:#88757b;--color-neutral-700:#69585e;--color-neutral-800:#4b3e42;--color-neutral-900:#31282b;
+--color-accent-100:#fff0f4;--color-accent-200:#ffdce6;--color-accent-300:#ffbcd0;--color-accent-400:#f78fb0;--color-accent-500:#e0628f;--color-accent-600:#b8456e;--color-accent-700:#923254;--color-accent-800:#6a223c;--color-accent-900:#431627;
+--color-accent-2-100:#fdf0f0;--color-accent-2-200:#f9dfe0;--color-accent-2-300:#f0c4c7;--color-accent-2-400:#e0a1a6;--color-accent-2-500:#c98088;--color-accent-2-600:#a6636b;--color-accent-2-700:#834a52;--color-accent-2-800:#5f343a;--color-accent-2-900:#3d2226}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);overflow-x:clip;text-wrap:pretty}
+a{color:var(--color-accent-700)}a:hover{color:var(--color-accent-800)}
+@keyframes floatUp{0%{transform:translateY(0) scale(.6) rotate(0);opacity:0}12%{opacity:.9}100%{transform:translateY(-105vh) scale(1.1) rotate(25deg);opacity:0}}
+@keyframes burst{0%{transform:translate(0,0) scale(.3);opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(1.2);opacity:0}}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.18)}30%{transform:scale(1)}45%{transform:scale(1.12)}}
+@keyframes letterIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+
+<div style="position:relative;min-height:100vh">
+  {{ floaters }}
+
+  <main style="position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+
+    <section data-screen-label="Inicio" style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:clamp(40px,6vw,96px);align-items:center;padding:clamp(56px,10vw,128px) 0 clamp(48px,8vw,96px)">
+      <div style="position:absolute;right:-160px;top:-200px;width:440px;height:440px;border-radius:50%;background:var(--color-accent-2-200);z-index:-1"></div>
+      <div style="display:flex;flex-direction:column;gap:28px">
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <span class="tag tag-accent">11 de octubre</span>
+          <span class="tag tag-accent-2">Valen &amp; Mati</span>
+        </div>
+        <h1 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(40px,11vw,84px);line-height:1.04;margin:0">
+          <span style="display:block">Un año</span>
+          <span style="display:block">y tres meses</span>
+          <span style="display:block;color:var(--color-accent)">con vos.</span>
+        </h1>
+        <p style="font-size:clamp(16px,4.4vw,18px);line-height:1.65;margin:0;max-width:44ch;color:var(--color-neutral-800)">Armé con mi amigo Claudito una página web para poder expresarte lo mucho que te amo este mes. Por siempre juntos.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;max-width:480px">
+          <a href="#fotos" class="btn btn-primary" style="text-decoration:none;flex:1 1 200px;justify-content:center;min-height:48px">Nuestro último mes</a>
+          <a href="#carta" class="btn btn-ghost" style="text-decoration:none;flex:1 1 200px;justify-content:center;min-height:48px">Tengo una carta para vos</a>
+        </div>
+      </div>
+      <div style="position:relative;width:min(100%,460px);aspect-ratio:1/1.05;justify-self:center">
+        <div style="position:absolute;left:0;top:0;width:82%;aspect-ratio:1;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-lg)">
+          <image-slot id="hero-main" shape="circle" placeholder="Nuestra foto favorita"></image-slot>
+        </div>
+        <div style="position:absolute;right:0;bottom:0;width:42%;aspect-ratio:1;border-radius:50%;overflow:hidden;border:8px solid var(--color-bg);box-shadow:var(--shadow-md)">
+          <image-slot id="hero-small" shape="circle" placeholder="Otra foto"></image-slot>
+        </div>
+        <div style="position:absolute;left:4%;bottom:6%;width:64px;height:64px;border-radius:50%;background:var(--color-accent);display:grid;place-items:center;box-shadow:var(--shadow-md);animation:beat 1.6s ease-in-out infinite">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="var(--color-bg)" stroke="var(--color-bg)" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+        </div>
+      </div>
+    </section>
+
+    <section data-screen-label="Contador" style="padding:clamp(32px,6vw,72px) 0;display:flex;flex-direction:column;gap:36px">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--color-accent-700)">Desde {{ startLabel }}</span>
+        <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(30px,3.6vw,44px);line-height:1.15;margin:0">Llevamos juntos…</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,140px),1fr));gap:clamp(12px,3vw,20px);align-items:center;max-width:960px">
+        <div style="width:100%;aspect-ratio:1;border-radius:50%;background:var(--color-accent-100);display:grid;place-content:center;text-align:center;gap:6px">
+          <span style="font-family:var(--font-heading);font-size:clamp(19px,2.6vw,34px);line-height:1;font-variant-numeric:tabular-nums;color:var(--color-accent-700)">{{ months }}</span>
+          <span style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--color-neutral-800)">meses</span>
+        </div>
+        <div style="width:100%;aspect-ratio:1;border-radius:50%;background:var(--color-accent-2-300);display:grid;place-content:center;text-align:center;gap:6px">
+          <span style="font-family:var(--font-heading);font-size:clamp(19px,2.6vw,34px);line-height:1;font-variant-numeric:tabular-nums;color:var(--color-accent-2-800)">{{ days }}</span>
+          <span style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--color-neutral-900)">días</span>
+        </div>
+        <div style="width:100%;aspect-ratio:1;border-radius:50%;background:var(--color-accent-200);display:grid;place-content:center;text-align:center;gap:6px">
+          <span style="font-family:var(--font-heading);font-size:clamp(19px,2.6vw,34px);line-height:1;font-variant-numeric:tabular-nums;color:var(--color-accent-800)">{{ hours }}</span>
+          <span style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--color-neutral-800)">horas</span>
+        </div>
+        <div style="width:100%;aspect-ratio:1;border-radius:50%;background:var(--color-accent-2-100);display:grid;place-content:center;text-align:center;gap:6px">
+          <span style="font-family:var(--font-heading);font-size:clamp(19px,2.6vw,34px);line-height:1;font-variant-numeric:tabular-nums;color:var(--color-accent-2-700)">{{ seconds }}</span>
+          <span style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--color-neutral-800)">segundos</span>
+        </div>
+      </div>
+      <p style="margin:0;font-size:16px;line-height:1.6;color:var(--color-neutral-700);max-width:50ch">…y con cada segundo que pasa me sigo enamorando aún más de vos.</p>
+    </section>
+
+    <section id="fotos" data-screen-label="Galería" style="padding:clamp(48px,8vw,96px) 0;display:flex;flex-direction:column;gap:40px">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--color-accent-700)">Nuestro último mes</span>
+        <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(30px,3.6vw,44px);line-height:1.15;margin:0;max-width:20ch">Pedacitos de este mes</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:clamp(20px,4vw,28px) clamp(14px,3vw,24px);align-items:start">
+        <figure style="margin:0;display:flex;flex-direction:column;gap:12px">
+          <div style="aspect-ratio:3/4;border-radius:999px 999px 32px 32px;overflow:hidden;box-shadow:var(--shadow-sm)"><image-slot id="g1" shape="rect" placeholder="Foto de este mes"></image-slot></div>
+          <figcaption style="font-family:var(--font-heading);font-size:clamp(17px,4.4vw,20px);line-height:1.25;color:var(--color-text)">Una salida juntos</figcaption>
+          <span style="font-size:14px;color:var(--color-neutral-700);margin-top:-8px">19 de septiembre de 2026</span>
+        </figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:12px;padding-top:clamp(32px,8vw,56px)">
+          <div style="aspect-ratio:1;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-sm)"><image-slot id="g2" shape="circle" placeholder="Una selfie"></image-slot></div>
+          <figcaption style="font-family:var(--font-heading);font-size:clamp(17px,4.4vw,20px);line-height:1.25;color:var(--color-text)">La primavera con vos</figcaption>
+          <span style="font-size:14px;color:var(--color-neutral-700);margin-top:-8px">21 de septiembre de 2026</span>
+        </figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:12px">
+          <div style="aspect-ratio:4/5;border-radius:40px;overflow:hidden;box-shadow:var(--shadow-sm)"><image-slot id="g3" shape="rect" placeholder="Foto de este mes"></image-slot></div>
+          <figcaption style="font-family:var(--font-heading);font-size:clamp(17px,4.4vw,20px);line-height:1.25;color:var(--color-text)">Nuestro primer viaje</figcaption>
+          <span style="font-size:14px;color:var(--color-neutral-700);margin-top:-8px">24 de septiembre de 2026</span>
+        </figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:12px;padding-top:32px">
+          <div style="aspect-ratio:3/4;border-radius:32px 32px 999px 999px;overflow:hidden;box-shadow:var(--shadow-sm)"><image-slot id="g5" shape="rect" placeholder="Una foto bonita"></image-slot></div>
+          <figcaption style="font-family:var(--font-heading);font-size:clamp(17px,4.4vw,20px);line-height:1.25;color:var(--color-text)">Viendo a tu banda favorita</figcaption>
+          <span style="font-size:14px;color:var(--color-neutral-700);margin-top:-8px">24 de septiembre de 2026</span>
+        </figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:12px">
+          <div style="aspect-ratio:4/5;border-radius:40px;overflow:hidden;box-shadow:var(--shadow-sm)"><image-slot id="g4" shape="rect" placeholder="Un día cualquiera"></image-slot></div>
+          <figcaption style="font-family:var(--font-heading);font-size:clamp(17px,4.4vw,20px);line-height:1.25;color:var(--color-text)">Unos modelitos</figcaption>
+          <span style="font-size:14px;color:var(--color-neutral-700);margin-top:-8px">26 de septiembre de 2026</span>
+        </figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:12px;padding-top:clamp(32px,8vw,56px)">
+          <div style="aspect-ratio:1;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-sm)"><image-slot id="g6" shape="circle" placeholder="Nosotros"></image-slot></div>
+          <figcaption style="font-family:var(--font-heading);font-size:clamp(17px,4.4vw,20px);line-height:1.25;color:var(--color-text)">Esa sonrisa tuya</figcaption>
+          <span style="font-size:14px;color:var(--color-neutral-700);margin-top:-8px">27 de septiembre de 2026</span>
+        </figure>
+      </div>
+    </section>
+
+    <section data-screen-label="Cosas que amo" style="padding:clamp(48px,8vw,96px) 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:48px;align-items:start">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--color-accent-2-700)">Son infinitas las cosas que amo de vos</span>
+        <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(30px,3.6vw,44px);line-height:1.15;margin:0;max-width:14ch">Por eso armé una lista</h2>
+      </div>
+      <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px">
+        <li style="display:flex;gap:18px;align-items:baseline"><span style="flex:none;width:36px;height:36px;border-radius:50%;background:var(--color-accent-100);color:var(--color-accent-700);display:grid;place-items:center;font-family:var(--font-heading);font-size:17px;transform:translateY(-2px)">1</span><p style="margin:0;font-size:clamp(16px,4.4vw,18px);line-height:1.6">Tu carita de dormida por las mañanas.</p></li>
+        <li style="display:flex;gap:18px;align-items:baseline"><span style="flex:none;width:36px;height:36px;border-radius:50%;background:var(--color-accent-2-100);color:var(--color-accent-2-700);display:grid;place-items:center;font-family:var(--font-heading);font-size:17px;transform:translateY(-2px)">2</span><p style="margin:0;font-size:clamp(16px,4.4vw,18px);line-height:1.6">Cuando te convertís en una garrapata que me llena de abrazos.</p></li>
+        <li style="display:flex;gap:18px;align-items:baseline"><span style="flex:none;width:36px;height:36px;border-radius:50%;background:var(--color-accent-100);color:var(--color-accent-700);display:grid;place-items:center;font-family:var(--font-heading);font-size:17px;transform:translateY(-2px)">3</span><p style="margin:0;font-size:clamp(16px,4.4vw,18px);line-height:1.6">Cuando me hacés pucherito porque querés algo.</p></li>
+        <li style="display:flex;gap:18px;align-items:baseline"><span style="flex:none;width:36px;height:36px;border-radius:50%;background:var(--color-accent-2-100);color:var(--color-accent-2-700);display:grid;place-items:center;font-family:var(--font-heading);font-size:17px;transform:translateY(-2px)">4</span><p style="margin:0;font-size:clamp(16px,4.4vw,18px);line-height:1.6">Tu carita al ver que nuevamente me estoy haciendo el muertito.</p></li>
+        <li style="display:flex;gap:18px;align-items:baseline"><span style="flex:none;width:36px;height:36px;border-radius:50%;background:var(--color-accent-100);color:var(--color-accent-700);display:grid;place-items:center;font-family:var(--font-heading);font-size:17px;transform:translateY(-2px)">5</span><p style="margin:0;font-size:clamp(16px,4.4vw,18px);line-height:1.6">Tu abdomen esculpido por los dioses.</p></li>
+      </ol>
+    </section>
+
+    <section id="carta" data-screen-label="Carta" style="padding:clamp(32px,6vw,72px) 0">
+      <div style="background:var(--color-accent-2-100);border-radius:calc(2 * var(--radius-lg));padding:clamp(32px,6vw,72px) clamp(24px,5vw,72px);display:flex;flex-direction:column;gap:24px;align-items:flex-start;position:relative;overflow:hidden">
+        <div style="position:absolute;right:-90px;bottom:-110px;width:280px;height:280px;border-radius:50%;background:var(--color-accent-2-200)"></div>
+        <span style="position:relative;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--color-accent-2-800)">Para Valen</span>
+        <h2 style="position:relative;font-family:var(--font-heading);font-weight:400;font-size:clamp(30px,3.6vw,44px);line-height:1.15;margin:0">Te escribí algo</h2>
+        <sc-if value="{{ letterClosed }}" hint-placeholder-val="{{ true }}">
+          <button type="button" class="btn btn-primary" onClick="{{ openLetter }}" style="position:relative;min-height:48px;display:inline-flex;gap:10px;align-items:center">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            Abrir la carta
+          </button>
+        </sc-if>
+        <sc-if value="{{ letterOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="position:relative;background:var(--color-bg);border-radius:var(--radius-lg);padding:clamp(24px,4vw,48px);max-width:62ch;box-shadow:var(--shadow-md);display:flex;flex-direction:column;gap:18px;animation:letterIn .6s ease both">
+            <p style="margin:0;font-family:var(--font-heading);font-size:22px">Mi Valen,</p>
+            <p style="margin:0;font-size:clamp(16px,4.2vw,17px);line-height:1.75">Hoy por fin cumplimos el 3er mes de este primer año. Sigo igual de enamorado que desde esa primera chispa que se despertó en nosotros después de vernos aquella vez en Modesto para tomarnos un cafecito. Agradezco mucho lo hermosa y buena novia que sos, la paciencia que me tenés y, sin dudas, la forma hermosa que tenés para amarme.</p>
+            <p style="margin:0;font-size:clamp(16px,4.2vw,17px);line-height:1.75">Si de algo estoy seguro es que estos próximos meses quiero descubrirte, amarte y, sin dudas, disfrutarte más que nunca, y que el “te amo” nunca sea algo que pase desapercibido. Gracias por seguirme eligiendo y dejarme ser tu compañero de vida.</p>
+            <p style="margin:0;font-size:clamp(16px,4.2vw,17px);line-height:1.75">Aprovechemos este 2026 que se está yendo para seguir viviendo aventuras juntos, amarnos muy fuerte y no parar de reírnos nunca.</p>
+            <p style="margin:0;font-family:var(--font-heading);font-size:22px;color:var(--color-accent-700)">Te amo, siempre.</p>
+          </div>
+        </sc-if>
+      </div>
+    </section>
+
+    <section data-screen-label="Cierre" style="padding:clamp(56px,9vw,112px) 0 48px;display:flex;flex-direction:column;align-items:flex-start;gap:28px">
+      <div style="width:min(100%,640px);aspect-ratio:16/10;border-radius:999px;overflow:hidden;box-shadow:var(--shadow-md)">
+        <image-slot id="final" shape="pill" placeholder="Una última foto, la más linda"></image-slot>
+      </div>
+      <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(36px,5vw,64px);line-height:1.08;margin:0">
+        <span style="display:block">Por muchos</span>
+        <span style="display:block;color:var(--color-accent-2-700)">meses más.</span>
+      </h2>
+      <div style="position:relative;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <button type="button" class="btn btn-primary" onClick="{{ sendKiss }}" style="position:relative;min-height:48px;display:inline-flex;gap:10px;align-items:center">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+          Mándame un beso
+        </button>
+        <span style="font-size:15px;color:var(--color-neutral-700)">{{ kissLabel }}</span>
+        <sc-if value="{{ hasKisses }}" hint-placeholder-val="{{ false }}">
+          <button type="button" class="btn btn-ghost" onClick="{{ resetKisses }}" style="min-height:44px">Reiniciar</button>
+        </sc-if>
+        {{ burst }}
+      </div>
+    </section>
+
+    <footer style="padding:40px 0 56px;font-size:14px;color:var(--color-neutral-700)">Hecho con mucho amor, para vos.</footer>
+    <div style="padding:0 0 64px;display:flex;flex-direction:column;gap:10px;align-items:flex-start;font-size:13px;line-height:1.6;color:var(--color-neutral-700);max-width:46ch">
+      <p style="margin:0">Si desea terminar la relación y dejar de recibir estas sorpresas hermosas, <a href="#" onClick="{{ tryLeave }}" onPointerEnter="{{ dodge }}" style="display:inline-block;padding:6px 2px;color:var(--color-accent-700);font-weight:600;transition:transform .35s cubic-bezier(.3,1.6,.5,1);transform:{{ dodgeTransform }}">haga click aquí</a>.</p>
+      <span style="font-size:13px;color:var(--color-accent-700);font-weight:600">{{ dodgeMsg }}</span>
+    </div>
+    <sc-if value="{{ breakupOpen }}" hint-placeholder-val="{{ false }}">
+      <div class="dialog-backdrop" onClick="{{ closeBreakup }}" style="position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:20px">
+        <div class="dialog" onClick="{{ stop }}" style="max-width:400px;width:100%;display:flex;flex-direction:column;gap:16px">
+          <h3 class="dialog-title" style="margin:0">Solicitud rechazada</h3>
+          <p class="dialog-body" style="margin:0">Lo sentimos, Valen. Tu suscripción a Mati es de por vida y no admite cancelaciones, reembolsos ni devoluciones.</p>
+          <div class="dialog-actions" style="display:flex;gap:10px;flex-wrap:wrap">
+            <button type="button" class="btn btn-primary" onClick="{{ closeBreakup }}" style="min-height:44px">Bueno, te amo</button>
+            <button type="button" class="btn btn-ghost" onClick="{{ closeBreakup }}" style="min-height:44px">Acepto mi destino</button>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;startDate&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;2025-07-11&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Nosotros&quot;},&quot;floatingHearts&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Efectos&quot;}}">
+class Component extends DCLogic {
+  state = { now: Date.now(), letterOpen: false, kisses: 0, bursts: [] };
+  componentDidMount() { this.t = setInterval(() => this.setState({ now: Date.now() }), 1000); }
+  componentWillUnmount() { clearInterval(this.t); }
+  heart(size, color) {
+    return React.createElement('svg', { width: size, height: size, viewBox: '0 0 24 24', fill: color, stroke: color, strokeWidth: 2.75, strokeLinejoin: 'round', style: { display: 'block' } },
+      React.createElement('path', { d: 'M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z' }));
+  }
+  floaters() {
+    if (this._floaters) return this._floaters;
+    const cols = ['var(--color-accent-200)', 'var(--color-accent-2-200)', 'var(--color-accent-300)', 'var(--color-accent-2-300)'];
+    const items = Array.from({ length: 14 }, (_, i) => React.createElement('div', { key: i, style: {
+      position: 'absolute', left: ((i * 37) % 100) + '%', bottom: '-40px',
+      animation: `floatUp ${16 + (i % 5) * 3}s linear ${-(i * 2.3)}s infinite`, opacity: 0 } },
+      this.heart(14 + (i % 4) * 6, cols[i % 4])));
+    this._floaters = React.createElement('div', { 'aria-hidden': true, style: { position: 'fixed', inset: 0, pointerEvents: 'none', overflow: 'hidden', zIndex: 0 } }, items);
+    return this._floaters;
+  }
+  dodge = () => {
+    const n = this.state.escapes || 0;
+    if (n >= 6) return;
+    const w = Math.min(window.innerWidth, 600) / 2 - 40;
+    this.setState({ escapes: n + 1, dx: (Math.random() * 2 - 1) * w, dy: -(20 + Math.random() * 120), rot: (Math.random() * 2 - 1) * 25 });
+  };
+  sendKiss = () => {
+    const id = Date.now();
+    const parts = Array.from({ length: 12 }, (_, i) => {
+      const a = (i / 12) * Math.PI * 2 - Math.PI / 2, r = 70 + Math.random() * 60;
+      return { k: i, dx: Math.cos(a) * r, dy: Math.sin(a) * r - 40, c: i % 2 ? 'var(--color-accent)' : 'var(--color-accent-2-500)', s: 14 + Math.random() * 12 };
+    });
+    this.setState(s => ({ kisses: s.kisses + 1, bursts: [...s.bursts, { id, parts }] }));
+    setTimeout(() => this.setState(s => ({ bursts: s.bursts.filter(b => b.id !== id) })), 1300);
+  };
+  renderVals() {
+    const startStr = this.props.startDate ?? '2025-07-11';
+    const [y, m, d] = startStr.split('-').map(Number);
+    const start = new Date(y, m - 1, d);
+    const now = new Date(this.state.now);
+    const diff = Math.max(0, now - start);
+    let months = (now.getFullYear() - y) * 12 + (now.getMonth() - (m - 1));
+    if (now.getDate() < d) months--;
+    const fmt = n => n.toLocaleString('es');
+    const mesesN = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    const burst = React.createElement('div', { style: { position: 'absolute', left: 90, top: '50%', pointerEvents: 'none' } },
+      this.state.bursts.flatMap(b => b.parts.map(p => React.createElement('div', { key: b.id + '-' + p.k, style: {
+        position: 'absolute', left: 0, top: 0, '--dx': p.dx + 'px', '--dy': p.dy + 'px', animation: 'burst 1.2s cubic-bezier(.2,.7,.3,1) forwards' } }, this.heart(p.s, p.c)))));
+    const k = this.state.kisses;
+    return {
+      floaters: (this.props.floatingHearts ?? true) ? this.floaters() : null,
+      startLabel: `el ${d} de ${mesesN[m - 1]} de ${y}`,
+      months: fmt(Math.max(0, months)),
+      days: fmt(Math.floor(diff / 864e5)),
+      hours: fmt(Math.floor(diff / 36e5)),
+      seconds: fmt(Math.floor(diff / 1e3)),
+      letterOpen: this.state.letterOpen,
+      letterClosed: !this.state.letterOpen,
+      openLetter: () => this.setState({ letterOpen: true }),
+      sendKiss: this.sendKiss,
+      burst,
+      dodge: this.dodge,
+      tryLeave: e => { e.preventDefault(); if ((this.state.escapes || 0) < 6) this.dodge(); else this.setState({ breakupOpen: true }); },
+      dodgeTransform: `translate(${(this.state.dx || 0)}px, ${(this.state.dy || 0)}px) rotate(${(this.state.rot || 0)}deg)`,
+      dodgeMsg: ['', '¿Segura?', 'Uy, se escapó.', 'No, no, no.', 'El botón tampoco quiere.', 'Ya casi… mentira.', 'Bueno, dale. Intentá ahora.'][Math.min(this.state.escapes || 0, 6)],
+      breakupOpen: !!this.state.breakupOpen,
+      closeBreakup: () => this.setState({ breakupOpen: false, escapes: 0, dx: 0, dy: 0, rot: 0 }),
+      stop: e => e.stopPropagation(),
+      hasKisses: k > 0,
+      resetKisses: () => this.setState({ kisses: 0 }),
+      kissLabel: k === 0 ? '' : k === 1 ? '1 beso recibido' : `${k} besos recibidos`
+    };
+  }
+}
+</script>
+</body>
+</html>
